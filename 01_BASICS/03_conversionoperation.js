@@ -40,10 +40,50 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 //1->true
 //""->false
 //"anyname"->true
-
-
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber); //33
-console.log(typeof stringNumber);//string
+// console.log(stringNumber); //33
+// console.log(typeof stringNumber);//string
+
+// *********************** Operations ***********************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);//-3
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);//2 to the power2
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "hello"
+let str2 = " vaish"
+
+let str3 = str1 + str2
+// console.log(str3);//hello vaish
+
+//confusion code:
+
+// console.log("1" + 2);//12
+// console.log(1 + "2");//12
+// console.log("1" + 2 + 2);//122
+// console.log(1 + 2 + "2");//33
+//so dont be dependent on this confusing code
+
+// console.log( (3 + 4) * 5 % 3);
+
+// console.log(+true);//1
+//console.log(true+);//dont get executed
+// console.log(+"");//0
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2//tricky
+
+//prefix and postfix
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
