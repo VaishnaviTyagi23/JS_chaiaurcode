@@ -45,12 +45,34 @@ let myObj = {
 }
 //function as variable
 const myFunction = function(){
-    console.log("Hello world");
+    // console.log("Hello world");
 }
 
 //to know datatype
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 //gives object for null
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 //table 20-> for interview
+
+
+// Stack(Primitive) , Heap (Non-Primitve)
+
+let myYoutubename = " hiteshchoudharydotcom"//goes in stack
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+//heap eg.
+let userOne ={
+    email: "hello@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo= userOne
+userTwo.email= "hitesh@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
